@@ -186,6 +186,22 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>AGPMInjector.kext</string>
+				<key>Comment</key>
+				<string>Apple Graphics Power Management</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -1437,6 +1453,7 @@
 			<dict>
 				<key>UIScale</key>
 				<data>
+				AgAAAA==
 				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -1446,12 +1463,6 @@
 				<key>csr-active-config</key>
 				<data>
 				E7030000
-				</data>
-				<key>nvda_drv</key>
-				<data>
-				</data>
-				<key>prev-lang:kbd</key>
-				<data>
 				</data>
 			</dict>
 		</dict>

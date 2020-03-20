@@ -269,6 +269,53 @@ DefinitionBlock ("", "SSDT", 2, "APPLE ", "XHC", 0x00001000)
                         Zero, 
                         Zero
                     })
+                    Device (PRT1)
+                    {
+                        Name (_ADR, One)  // _ADR: Address
+                        Name (_UPC, Package (0x04)  // _UPC: USB Port Capabilities
+                        {
+                            0xFF, 
+                            Zero, 
+                            Zero, 
+                            Zero
+                        })
+                    }
+
+                    Device (PRT2)
+                    {
+                        Name (_ADR, 0x02)  // _ADR: Address
+                        Name (_UPC, Package (0x04)  // _UPC: USB Port Capabilities
+                        {
+                            0xFF, 
+                            Zero, 
+                            Zero, 
+                            Zero
+                        })
+                    }
+
+                    Device (PRT3)
+                    {
+                        Name (_ADR, 0x03)  // _ADR: Address
+                        Name (_UPC, Package (0x04)  // _UPC: USB Port Capabilities
+                        {
+                            0xFF, 
+                            Zero, 
+                            Zero, 
+                            Zero
+                        })
+                    }
+
+                    Device (PRT4)
+                    {
+                        Name (_ADR, 0x04)  // _ADR: Address
+                        Name (_UPC, Package (0x04)  // _UPC: USB Port Capabilities
+                        {
+                            0xFF, 
+                            Zero, 
+                            Zero, 
+                            Zero
+                        })
+                    }
                 }
 
                 Device (PRT7)    // NCASE M1: FRONT LEFT, USB 3.0 || USB-C 3.0

@@ -5,22 +5,22 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>v1.0</string>
+	<string>1.2 ASRock X570 Phantom Gaming ITX/TB3 USB map</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.asrock.X570PhantomGamingITXTB3.USBmap</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>USBMap</string>
+	<string>ASRock X570 ITX/TB3 USB map</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
-	<key>IOKitPersonalities</key>
+	<string>1.2</string>
+	<key>IOKitPersonalities_x86_64</key>
 	<dict>
 		<key>iMacPro1,1-XHC0</key>
 		<dict>
@@ -97,6 +97,8 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>iMacPro1,1</string>
 		</dict>
 		<key>iMacPro1,1-XHC1</key>
 		<dict>
@@ -173,6 +175,8 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>iMacPro1,1</string>
 		</dict>
 		<key>iMacPro1,1-XHC2</key>
 		<dict>
@@ -216,7 +220,18 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>iMacPro1,1</string>
 		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.15</string>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.0</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.driver.AppleUSBHostMergeProperties</key>
+		<string>1.2</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>

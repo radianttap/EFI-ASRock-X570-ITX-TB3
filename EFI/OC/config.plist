@@ -40,11 +40,9 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array>
-		</array>
+		<array/>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -62,8 +60,7 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
@@ -93,11 +90,9 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict>
-		</dict>
+		<dict/>
 		<key>Block</key>
-		<dict>
-		</dict>
+		<dict/>
 	</dict>
 	<key>Kernel</key>
 	<dict>
@@ -199,13 +194,27 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>USBMap-ASRock-X570-Phantom-Gaming-ITX-TB3.kext</string>
+				<key>Comment</key>
+				<string>USB map for ASRock X570 ITX/TB3 </string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
-		<array>
-		</array>
+		<array/>
 		<key>Emulate</key>
-		<dict>
-		</dict>
+		<dict/>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -1383,7 +1392,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -1392,11 +1401,11 @@
 		<array/>
 		<key>Boot</key>
 		<dict>
-			<key>ConsoleMode</key>
-			<string></string>
 			<key>ConsoleBehaviourOs</key>
 			<string></string>
 			<key>ConsoleBehaviourUi</key>
+			<string></string>
+			<key>ConsoleMode</key>
 			<string></string>
 			<key>HibernateMode</key>
 			<string>None</string>
@@ -1406,10 +1415,10 @@
 			<false/>
 			<key>Resolution</key>
 			<string></string>
-			<key>Timeout</key>
-			<integer>15</integer>
 			<key>ShowPicker</key>
 			<true/>
+			<key>Timeout</key>
+			<integer>15</integer>
 			<key>UsePicker</key>
 			<true/>
 		</dict>
@@ -1425,8 +1434,7 @@
 			<integer>75</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -1443,8 +1451,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>Tools</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
@@ -1453,18 +1460,23 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>UIScale</key>
-				<data>02</data>
+				<data>
+				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
 				<string>-v debug=0x100 keepsyms=1</string>
-				<key>nvda_drv</key>
-				<data></data>
 				<key>csr-active-config</key>
-				<data>E7030000</data>
+				<data>
+				E7030000
+				</data>
+				<key>nvda_drv</key>
+				<data>
+				</data>
 				<key>prev-lang:kbd</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -1481,8 +1493,7 @@
 		<key>LegacyEnable</key>
 		<false/>
 		<key>LegacySchema</key>
-		<dict>
-		</dict>
+		<dict/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>

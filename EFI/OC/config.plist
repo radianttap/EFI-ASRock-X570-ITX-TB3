@@ -279,13 +279,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>FakeSMC.kext</string>
+				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string>SMC Emulator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/FakeSMC</string>
+				<string>Contents/MacOS/VirtualSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -297,7 +297,7 @@
 				<key>BundlePath</key>
 				<string>ACPIMonitor.kext</string>
 				<key>Comment</key>
-				<string>ACPI HW monitoring</string>
+				<string>ACPI sensor monitoring</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -311,25 +311,9 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>AmdCPUMonitor.kext</string>
-				<key>Comment</key>
-				<string>AMD CPU monitoring</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AmdCPUMonitor</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>RadeonMonitor.kext</string>
 				<key>Comment</key>
-				<string>AMD Radeon temp monitoring</string>
+				<string>Radeon GPU Die Temperature Monitor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>

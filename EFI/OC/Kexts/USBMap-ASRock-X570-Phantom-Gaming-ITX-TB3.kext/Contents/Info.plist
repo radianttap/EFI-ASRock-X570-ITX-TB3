@@ -45,7 +45,7 @@
 						<key>Comment</key>
 						<string>Bluetooth USB Hub, 2.0</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AgAAAA==

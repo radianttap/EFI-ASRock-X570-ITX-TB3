@@ -40,19 +40,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XHC2 (rename from GP13.XHC0)</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XHC2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-USBX-AMD (Enable proper USB power)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-USBX-AMD.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-XHC2 (rename from GP13.XHC0)</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GP13.XHC0-to-XHC2.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-XHCI (rename from BXBR.BYUP.BYD8.XHC1)</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XHC1-to-XHCI.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>

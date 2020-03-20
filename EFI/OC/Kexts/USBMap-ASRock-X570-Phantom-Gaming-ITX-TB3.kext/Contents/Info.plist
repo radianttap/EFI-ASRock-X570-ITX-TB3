@@ -36,21 +36,10 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				BwAAAA==
+				BgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
-					<key>PRT1</key>
-					<dict>
-						<key>Comment</key>
-						<string>Front USB-C port, 2.0</string>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
 					<key>PRT2</key>
 					<dict>
 						<key>Comment</key>
@@ -82,17 +71,6 @@
 						<key>port</key>
 						<data>
 						BgAAAA==
-						</data>
-					</dict>
-					<key>PRT7</key>
-					<dict>
-						<key>Comment</key>
-						<string>Front USB-C port, 3.0</string>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>port</key>
-						<data>
-						BwAAAA==
 						</data>
 					</dict>
 				</dict>

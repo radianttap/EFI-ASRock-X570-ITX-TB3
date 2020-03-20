@@ -343,7 +343,7 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>SmallTree-Intel-211-AT-PCIe-GBE.kext</string>
+				<string>SmallTreeIntel82576.kext</string>
 				<key>Comment</key>
 				<string>Onboard Intel Ethernet</string>
 				<key>Enabled</key>

@@ -12,3 +12,19 @@ Current hardware:
 - Noctua [NF-A12x25](https://noctua.at/en/products/fan/nf-a12x25-pwm) case fan
 - Noctua [NF-A9 PWM](https://noctua.at/en/products/fan/nf-a9-pwm) fan (used it to replace 9x14 on the CPU cooler).
 - ADATA [XPG 8200 Pro](https://www.xpg.com/us/feature/583/) 1TB NVMe SSD
+
+## Usage
+
+In order to use this properly, you need to:
+
+- update SMBIOS stuff with your own, inside config.plist
+- Open Terminal on your Mac in the root of this repo and then run `sh vault.sh` to sign the build.
+
+Second step is required or your OC will fail to boot.
+
+### Note
+
+Use at your own risk. 
+
+Don’t ask for help here; use appropriate AMD-OSX forums and Discord channels.
+

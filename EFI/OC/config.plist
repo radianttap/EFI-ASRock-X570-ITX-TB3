@@ -146,8 +146,24 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Slot-1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Slot-1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>HDMI Audio Radeon RX 570</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built-In</string>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>layout-id</key>

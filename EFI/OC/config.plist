@@ -1839,7 +1839,6 @@
 		<key>Drivers</key>
 		<array>
 			<string>OpenRuntime.efi</string>
-			<string>OpenCanopy.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
 		</array>

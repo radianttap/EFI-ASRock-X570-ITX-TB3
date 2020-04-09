@@ -7,6 +7,7 @@ Current hardware:
 - AMD [Ryzen 5 3600](https://www.amd.com/en/products/cpu/amd-ryzen-5-3600)
 - [ASRock X570 Phantom Gaming-ITX/TB3](https://www.asrock.com/mb/AMD/X570%20Phantom%20Gaming-ITXTB3/) motherboard
 - Sapphire [Nitro+ RX570 8GB](https://www.sapphiretech.com/en/consumer/nitro-rx-570-8g-g5-oc) graphics card
+- Intel WiFi card (AX200) replaced with [Fenvi BCM94352Z](https://www.aliexpress.com/item/Dual-band-Wireless-Hackintosh-BCM94352Z-WIFI-Card-Broadcom-bcm94352-M-2-Bluetooth-4-0-Network-NGFF/32464748097.html)
 - Corsair [Vengeance LPX](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE-LPX/p/CMK16GX4M2B3200C16) 16 GB (2 x 8 GB) DDR4 3200MHz CL16
 - Nouvolo [Steck v1.1](https://www.nouvolo.com) SFF case
 - Corsair [SF600 Platinum](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020182-NA) SFX PSU

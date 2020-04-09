@@ -1,3 +1,5 @@
+OpenCore ver 0.5.7
+
 # ASRock X570 ITX/TB3 + Ryzen 5 3600 + RX 570 → iMacPro1,1
 
 Current hardware:

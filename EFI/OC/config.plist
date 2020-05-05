@@ -1757,13 +1757,13 @@
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
-				<string>OpenCore shell 1.0.3</string>
+				<string>OpenCore shell</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
 				<string>OpenCore shell</string>
 				<key>Path</key>
-				<string>Shell.efi</string>
+				<string>OpenShell.efi</string>
 			</dict>
 		</array>
 	</dict>

@@ -1,4 +1,4 @@
-OpenCore ver 0.5.7
+OpenCore ver 0.5.8
 
 # ASRock X570 ITX/TB3 + Ryzen 5 3600 + RX 570 → iMacPro1,1
 
@@ -20,14 +20,14 @@ Current hardware:
 
 In order to use this properly, you need to:
 
-- update SMBIOS stuff with your own, inside config.plist
+- update SMBIOS stuff with your own, inside `config.plist`
 - Open Terminal on your Mac in the root of this repo and then run `sh vault.sh` to sign the build.
 
-Second step is required or your OC will fail to boot.
+Second step is required or your OC will fail to boot since my EFI has Vaulting enabled.
 
 ### Note
 
 Use at your own risk. 
 
-Don’t ask for help here; use appropriate AMD-OSX forums and Discord channels.
+Don’t ask for help here; use appropriate [AMD-OSX](https://amd-osx.com) forums and Discord channels (both are linked there).
 

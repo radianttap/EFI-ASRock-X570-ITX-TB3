@@ -20,7 +20,7 @@ Current hardware:
 
 In order to use this properly, you need to:
 
-- update SMBIOS stuff with your own, inside `config.plist`
+- [update SMBIOS stuff](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial) with your own, inside `config.plist`
 - Open Terminal on your Mac in the root of this repo and then run `sh vault.sh` to sign the build.
 
 Second step is required or your OC will fail to boot since my EFI has Vaulting enabled.

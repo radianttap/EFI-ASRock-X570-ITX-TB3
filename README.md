@@ -1,4 +1,4 @@
-OpenCore ver 0.5.8
+OpenCore ver 0.5.9
 
 # ASRock X570 ITX/TB3 + Ryzen 5 3600 + RX 570 → iMacPro1,1
 

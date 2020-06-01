@@ -29,5 +29,9 @@ Second step is required or your OC will fail to boot since my EFI has Vaulting e
 
 Use at your own risk. 
 
+- All `.efi` drivers and `.kext` are `-DEBUG` builds from the respective packages. 
+- Boot is verbose to simplify troubleshooting.
+- OpenCanopy is up and running.
+
 Don’t ask for help here; use appropriate [AMD-OSX](https://amd-osx.com) forums and Discord channels (both are linked there).
 

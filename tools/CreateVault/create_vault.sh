@@ -49,12 +49,12 @@ echo "Hashing files in ${OCPath}..."
 /usr/bin/find . -not -path '*/\.*' -type f \
   \( ! -iname ".*" \) \
   \( ! -iname "vault.*" \) \
-  \( ! -iname "OpenCore.efi" \) | while read fname; do
+  \( ! -iname "OpenCore.efi" \) | while read -r fname; do
   fname="${fname#"./"}"
   wname="${fname//\//\\\\}"
   shasum=$(/usr/bin/shasum -a 256 "${fname}") || abort "Failed to hash ${fname}"
   sha=$(echo "$shasum" | /usr/bin/sed 's/^\([a-f0-9]\{64\}\).*/\1/') || abort "Illegit hashsum"
-  if [ "${#sha}" != 64 ] || [ "$(echo "$sha"| /usr/bin/sed 's/^[a-f0-9]*$//')"]; then
+  if [ "${#sha}" != 64 ] || [ "$(echo "$sha"| /usr/bin/sed 's/^[a-f0-9]*$//')" ]; then
     abort "Got invalid hash: ${sha}!"
   fi
 

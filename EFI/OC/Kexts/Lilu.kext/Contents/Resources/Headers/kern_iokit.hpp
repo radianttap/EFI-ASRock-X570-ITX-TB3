@@ -232,6 +232,15 @@ namespace WIOKit {
 	using t_PCIGetFunctionNumber = uint8_t (*)(IORegistryEntry *service);
 
 	/**
+	 *  Await for device publishing in IOService plane
+	 *
+	 *  @param obj  wait for (PCI) object publishing
+	 *
+	 *  @retval true on success
+	 */
+	EXPORT bool awaitPublishing(IORegistryEntry *obj);
+
+	/**
 	 *  Read PCI Config register
 	 *
 	 *  @param service  IOPCIDevice-compatible service.

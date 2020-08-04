@@ -2,7 +2,7 @@
 //  kern_devinfo.hpp
 //  Lilu
 //
-//  Copyright © 2018 vit9696. All rights reserved.
+//  Copyright © 2018-2020 vit9696. All rights reserved.
 //
 
 #ifndef kern_devinfo_h
@@ -35,6 +35,13 @@ class DeviceInfo {
 	 *  @param pciRoot  PCI root instance (commonly PCI0@0 device)
 	 */
 	void grabDevicesFromPciRoot(IORegistryEntry *pciRoot);
+
+	/**
+	 *  Await for PCI device publishing in IODeviceTree plane
+	 *
+	 *  @param obj  wait for (PCI) object publishing
+	 */
+	void awaitPublishing(IORegistryEntry *obj);
 
 public:
 	/**
@@ -198,6 +205,9 @@ private:
 	static constexpr uint32_t ConnectorLessCoffeeLakePlatformId1 {0x3E920003};
 	static constexpr uint32_t ConnectorLessCoffeeLakePlatformId2 {0x3E910003};
 	static constexpr uint32_t ConnectorLessCoffeeLakePlatformId3 {0x3E980003};
+	static constexpr uint32_t ConnectorLessCoffeeLakePlatformId4 {0x9BC80003};
+	static constexpr uint32_t ConnectorLessCoffeeLakePlatformId5 {0x9BC50003};
+	static constexpr uint32_t ConnectorLessCoffeeLakePlatformId6 {0x9BC40003};
 
 public:
 	/**
@@ -251,6 +261,13 @@ public:
 	 *  Requested external GPU switchoff
 	 */
 	bool requestedExternalSwitchOff {false};
+
+	/**
+	 *  Allocate and initialise cached device list.
+	 *
+	 *  @return device list or nullptr
+	 */
+	static DeviceInfo *createCached();
 
 	/**
 	 *  Allocate and initialise the device list.

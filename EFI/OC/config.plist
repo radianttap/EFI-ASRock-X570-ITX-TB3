@@ -1696,7 +1696,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v slide=81 debug=0x100 keepsyms=1</string>
+				<string>-v slide=81 debug=0x100 keepsyms=1 -brcmfx-driver=2</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==

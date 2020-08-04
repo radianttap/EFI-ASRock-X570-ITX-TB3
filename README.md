@@ -1,4 +1,4 @@
-OpenCore ver 0.5.9
+OpenCore ver 0.6.0
 
 # ASRock X570 ITX/TB3 + Ryzen 5 3600 + RX 570 → iMacPro1,1
 
@@ -20,18 +20,38 @@ Current hardware:
 
 In order to use this properly, you need to:
 
-- [update SMBIOS stuff](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial) with your own, inside `config.plist`
+- [Update SMBIOS stuff](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) with your own, inside `config.plist`
 - Open Terminal on your Mac in the root of this repo and then run `sh vault.sh` to sign the build.
 
-Second step is required or your OC will fail to boot since my EFI has Vaulting enabled.
+Last step is required or your OC will fail to boot since my EFI has Vaulting enabled.
 
-### Note
+### What’s working
+
+Almost everything.
+
+- NVMe SSD works out of the box.
+- Radeon GPU work out of the box.
+- WiFi out of the box.
+- Bluetooth with a little help (by 3 kexts).
+- All media services (Plex, Netflix in Safari, iTunes, Apple TV+ etc). All are fully hardware-accelerated.
+- 4K HDMI with HDR, Dolby.
+- iMessage, iCloud, Keychain, all of it.
+- System Integrity Protection (SIP) fully enabled.
+
+### What’s not working
+
+- Sleep / wake
+- Xcode’s watchOS Simulator and even compiling some watchOS SDK projects
+- Apple Watch unlock
+
+## Notes
 
 Use at your own risk. 
 
 - All `.efi` drivers and `.kext` are `-DEBUG` builds from the respective packages. 
 - Boot is verbose to simplify troubleshooting.
 - OpenCanopy is up and running.
+- I don’t boot Windows 10 using OC, thus I can’t guarantee it will work. I have Win 10 installed on separate SSD and switch using Boot Menu.
 
 Don’t ask for help here; use appropriate [AMD-OSX](https://amd-osx.com) forums and Discord channels (both are linked there).
 

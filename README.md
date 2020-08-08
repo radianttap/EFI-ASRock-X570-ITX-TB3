@@ -43,6 +43,7 @@ Almost everything.
 - Sleep / wake
 - Xcode’s watchOS Simulator and even compiling some watchOS SDK projects
 - Apple Watch unlock
+- Thunderbolt 3 (gave up on this entirely)
 
 ## Notes
 

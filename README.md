@@ -1,4 +1,4 @@
-OpenCore ver 0.6.0
+OpenCore ver 0.6.0 · Catalina 10.15.6
 
 # ASRock X570 ITX/TB3 + Ryzen 5 3600 + RX 570 → iMacPro1,1
 
@@ -31,8 +31,8 @@ Almost everything.
 
 - NVMe SSD works out of the box.
 - Radeon GPU work out of the box.
-- WiFi out of the box.
-- Bluetooth with a little help (by 3 kexts).
+- WiFi works with AirportBrcmFixup kext.
+- Bluetooth works with additional 3 kexts.
 - All media services (Plex, Netflix in Safari, iTunes, Apple TV+ etc). All are fully hardware-accelerated.
 - 4K HDMI with HDR, Dolby.
 - iMessage, iCloud, Keychain, all of it.

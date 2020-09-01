@@ -246,7 +246,7 @@
 				<key>Comment</key>
 				<string>AMD Ryzen CPU Power Management</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AMDRyzenCPUPowerManagement</string>
 				<key>MaxKernel</key>
@@ -262,7 +262,7 @@
 				<key>Comment</key>
 				<string>AMD CPU monitoring</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCAMDProcessor</string>
 				<key>MaxKernel</key>

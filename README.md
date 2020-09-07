@@ -18,12 +18,7 @@ Current hardware:
 
 ## Usage
 
-In order to use this properly, you need to:
-
-- [Update SMBIOS stuff](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) with your own, inside `config.plist`
-- Open Terminal on your Mac in the root of this repo and then run `sh vault.sh` to sign the build.
-
-Last step is required or your OC will fail to boot since my EFI has Vaulting enabled.
+In order to use this properly, you need to [update SMBIOS stuff](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) with your own, inside `config.plist`
 
 ### What’s working
 

@@ -42,7 +42,7 @@
 				<key>Comment</key>
 				<string>RX 5500 XT performance</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-RX 5500 XT.aml</string>
 			</dict>
@@ -378,7 +378,7 @@
 				<key>Comment</key>
 				<string>AMD Ryzen CPU Power Management</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AMDRyzenCPUPowerManagement</string>
 				<key>MaxKernel</key>
@@ -396,7 +396,7 @@
 				<key>Comment</key>
 				<string>AMD CPU monitoring</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCAMDProcessor</string>
 				<key>MaxKernel</key>
@@ -522,7 +522,7 @@
 				<key>Comment</key>
 				<string>Patches USB on Wake (from Sleep)</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBWakeFixup</string>
 				<key>MaxKernel</key>

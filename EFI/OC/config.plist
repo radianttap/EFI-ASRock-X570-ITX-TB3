@@ -2129,7 +2129,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>slide=81 debug=0x100 keepsyms=1 agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
+				<string>keepsyms=1 agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==

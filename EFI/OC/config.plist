@@ -42,7 +42,7 @@
 				<key>Comment</key>
 				<string>RX 5500 XT performance</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-RX 5500 XT.aml</string>
 			</dict>
@@ -2017,11 +2017,11 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<true/>
+			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
-			<true/>
+			<false/>
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -2180,7 +2180,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>slide=81 keepsyms=1 agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
+				<string>slide=81 debug=0x100 keepsyms=1 agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==

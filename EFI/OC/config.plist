@@ -2072,7 +2072,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
@@ -2180,7 +2180,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v slide=81 keepsyms=1 debug=0x100 acpi_layer=0x8 acpi_level=0x2 agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
+				<string>-v -x slide=81 keepsyms=1 debug=0x100 acpi_layer=0x8 acpi_level=0x2 agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==

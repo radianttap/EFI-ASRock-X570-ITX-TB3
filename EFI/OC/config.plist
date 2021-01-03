@@ -12,7 +12,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC.aml</string>
+				<string>SSDT-SBRG.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

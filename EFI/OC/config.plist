@@ -2137,7 +2137,7 @@
 				</data>
 				<key>UIScale</key>
 				<data>
-				Ag==
+				AQ==
 				</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
@@ -2307,7 +2307,7 @@
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>Resolution</key>
-			<string>1024x768</string>
+			<string>Max</string>
 			<key>SanitiseClearScreen</key>
 			<false/>
 			<key>TextRenderer</key>

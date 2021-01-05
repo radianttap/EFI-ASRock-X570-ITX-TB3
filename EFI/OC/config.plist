@@ -447,7 +447,7 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string></string>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>USBMap-ASRock-X570-Phantom-Gaming-ITX-TB3.kext</string>
 				<key>Comment</key>
@@ -2038,6 +2038,8 @@
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
+			<key>PickerVariant</key>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -2256,6 +2258,8 @@
 			<integer>20</integer>
 			<key>PlayChime</key>
 			<string>Disabled</string>
+			<key>SetupDelay</key>
+			<integer>0</integer>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
@@ -2356,8 +2360,6 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>DeduplicateBootOrder</key>
-			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>

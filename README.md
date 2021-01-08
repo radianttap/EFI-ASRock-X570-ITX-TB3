@@ -1,4 +1,4 @@
-OpenCore ver 0.6.4 · Catalina 10.15.7
+OpenCore ver 0.6.5 · Catalina 10.15.7
 
 # ASRock X570 ITX/TB3 + Ryzen 9 5900X + RX 5500 XT → iMacPro1,1
 
@@ -30,11 +30,13 @@ Combined with this riser cable, the card/adapter combo from above can be moved o
 
 Version 2.80
 
-- Fast Boot: Disabled
-- CSM: Disabled
-- Above 4G Decoding: Enabled
-- PCIe speed: Gen 3 (*do not* leave it on Auto)
-- XMP Profile set and running.
+- Fast Boot: `Disabled`
+- CSM: `Disabled`
+- Above 4G Decoding: `Enabled`
+- Resizable Bar Support: `Disabled`
+- PCIe speed: `Gen 3` (*do not* leave it on Auto)
+- XMP Profile activated.
+- FCLK set to 1600MHz, to be equal to MCLK.
 
 ## Usage
 
@@ -72,7 +74,7 @@ Use at your own risk.
 - OpenCanopy (GUI boot menu) is up and running.
 - I don’t boot Windows 10 using OC, thus I can’t guarantee it will work. I have Win 10 installed on separate SSD and switch using Boot Menu.
 
-**Don’t ask me for help.** Sorry, but this stuff is finicky and infuriatingly detailed that every little mis-step can be a proper headache. This is why [Dortania](https://dortania.github.io) advises to not reuse anyone’s EFI.  
+**Don’t ask me for help.** Sorry but this stuff is finicky and infuriatingly detailed that every little mis-step can be a proper headache. This is why [Dortania](https://dortania.github.io) advises to not reuse anyone’s EFI.  
 
 Ask [on reddit](https://www.reddit.com/r/hackintosh/) and the [discord server](https://discord.gg/Wxam8aH).
 

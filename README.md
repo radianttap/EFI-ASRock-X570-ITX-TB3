@@ -1,4 +1,4 @@
-OpenCore ver 0.6.5 · Catalina 10.15.7
+OpenCore ver 0.6.5 · Bug Sur 11.2
 
 # ASRock X570 ITX/TB3 + Ryzen 9 5900X + RX 5500 XT → iMacPro1,1
 
@@ -59,11 +59,12 @@ Pretty much everything.
 - 4K HDMI with HDR, Dolby.
 - Watch unlock, Handoff, iMessage, iCloud, Keychain, Xcode etc.
 - System Integrity Protection (SIP) fully enabled.
+- Sleep
 
 ### What’s not working
 
 - Sidecar
-- Sleep / wake
+- Wake (GPU fails to start up)
 - Thunderbolt 3
 
 ## Notes

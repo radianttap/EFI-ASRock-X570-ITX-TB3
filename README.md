@@ -28,7 +28,7 @@ Combined with this riser cable, the card/adapter combo from above can be moved o
 
 ### BIOS
 
-Version 2.80
+Version 3.00
 
 - Fast Boot: `Disabled`
 - CSM: `Disabled`

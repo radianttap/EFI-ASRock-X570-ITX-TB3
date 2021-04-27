@@ -1,4 +1,4 @@
-OpenCore ver 0.6.8 · Bug Sur 11.2.3
+OpenCore ver 0.6.8 · Bug Sur 11.3
 
 # ASRock X570 ITX/TB3 + Ryzen 9 5900X + RX 5500 XT → iMacPro1,1
 

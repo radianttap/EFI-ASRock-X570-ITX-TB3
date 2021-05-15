@@ -80,3 +80,7 @@ Use at your own risk.
 Ask [on reddit](https://www.reddit.com/r/hackintosh/) and the [discord server](https://discord.gg/Wxam8aH).
 
 Good luck.
+
+## Give back
+
+If you found this code useful, please consider [buying me a coffee](https://www.buymeacoffee.com/radianttap) or two. ☕️😋

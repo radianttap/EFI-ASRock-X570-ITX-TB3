@@ -48,6 +48,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Radeon RX-570</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RX570.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SMBus fixer</string>
 				<key>Enabled</key>
 				<true/>
@@ -405,7 +413,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>AGPM-RX-5500XT.kext</string>
+				<string>AGPM-RX570-iMacPro1.1.kext</string>
 				<key>Comment</key>
 				<string>AGPM injector</string>
 				<key>Enabled</key>
@@ -2250,7 +2258,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 agdpmod=pikera brcmfx-driver=2 brcmfx-country=RS</string>
+				<string>keepsyms=1 brcmfx-driver=2 brcmfx-country=RS</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==

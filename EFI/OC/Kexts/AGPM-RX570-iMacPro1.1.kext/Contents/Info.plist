@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18A391024</string>
+	<string>18A391012</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>111.4.4, Copyright 2008-2019 Apple Inc. All rights reserved.</string>
+	<string>111.4.2, Copyright 2008-2019 Apple Inc. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.driver.AGPMInjector</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.2.1-AGPMInjector</string>
+	<string>3.2-AGPMInjector</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>111.4.4</string>
+	<string>111.4.2</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>AGPM</key>
@@ -38,7 +38,7 @@
 			<dict>
 				<key>iMacPro1,1</key>
 				<dict>
-					<key>Vendor1002Device7340</key>
+					<key>Vendor1002Device67df</key>
 					<dict>
 						<key>AGDCEnabled</key>
 						<integer>1</integer>

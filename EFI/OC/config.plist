@@ -471,7 +471,7 @@
 				<key>Comment</key>
 				<string>XHC map for ASRock X570 ITX/TB3</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>

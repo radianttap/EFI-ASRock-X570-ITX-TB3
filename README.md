@@ -1,19 +1,19 @@
-OpenCore ver 0.6.8 · Bug Sur 11.3
+OpenCore ver 0.7.0 · Bug Sur 11.4
 
-# ASRock X570 ITX/TB3 + Ryzen 9 5900X + RX 5500 XT → iMacPro1,1
+# ASRock X570 ITX/TB3 + Ryzen 9 5900X + RX-570 → iMacPro1,1
 
 Current hardware:
 
 - AMD [Ryzen 9 5900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5900x) CPU
 - XPG [Levante 240](https://www.xpg.com/en/feature/644/) AIO
 - [ASRock X570 Phantom Gaming-ITX/TB3](https://www.asrock.com/mb/AMD/X570%20Phantom%20Gaming-ITXTB3/) motherboard
-- Sapphire [Pulse RX 5500 XT SF 8GB](https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5500-xt-sf-8g-gddr6) graphics card
+- Sapphire [Nitro+ RX 570 8GB](https://www.sapphiretech.com/en/consumer/nitro-rx-570-8g-g5-oc) graphics card
 - Corsair [Vengeance LPX](https://www.corsair.com/ww/en/Categories/Products/Memory/VENGEANCE-LPX/p/CMK32GX4M2B3200C16) 32 GB (2 x 16 GB) DDR4 3200MHz CL16
 - Corsair [SF600 Platinum](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020182-NA) SFX PSU
 - Noctua [NF-A12x25](https://noctua.at/en/products/fan/nf-a12x25-pwm) case fan
 - ADATA [XPG 8200 Pro](https://www.xpg.com/us/feature/583/) 1TB NVMe SSD
 - Samsung [860 EVO](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-860-evo-2-5--sata-iii-500gb-mz-76e500b-am/) 500 GB 2.5in SSD
-- Nouvolo [Steck v1.1](https://www.nouvolo.com) SFF case
+- Sliger [S620](https://sliger.com/products/cases/s620/) SFF case
 
 ### WiFI / Bt
 
@@ -53,7 +53,7 @@ Pretty much everything.
 
 - NVMe SSD recognised properly.
 - WiFi, Bluetooth, Ethernet
-- All USB ports properly mapped. Steck case does not have any ports thus internal USB header is not connected.
+- All USB ports properly mapped.
 - Radeon GPU, natively supported.
 - All media services (Plex, Netflix in Safari, iTunes, Apple TV+ etc). All are fully hardware-accelerated.
 - 4K HDMI with HDR, Dolby.

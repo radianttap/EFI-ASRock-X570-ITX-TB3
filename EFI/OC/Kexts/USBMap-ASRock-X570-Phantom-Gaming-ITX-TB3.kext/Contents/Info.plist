@@ -40,6 +40,17 @@
 				</data>
 				<key>ports</key>
 				<dict>
+					<key>PRT1</key>
+					<dict>
+						<key>Comment</key>
+						<string>Sliger S620 Right USB-A, 2.0</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
 					<key>PRT2</key>
 					<dict>
 						<key>Comment</key>
@@ -49,6 +60,17 @@
 						<key>port</key>
 						<data>
 						AgAAAA==
+						</data>
+					</dict>
+					<key>PRT3</key>
+					<dict>
+						<key>Comment</key>
+						<string>Sliger S620 Left USB-A, 2.0</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						AwAAAA==
 						</data>
 					</dict>
 					<key>PRT4</key>
@@ -71,6 +93,28 @@
 						<key>port</key>
 						<data>
 						BgAAAA==
+						</data>
+					</dict>
+					<key>PRT7</key>
+					<dict>
+						<key>Comment</key>
+						<string>Sliger S620 Right USB-A, 3.0</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						BwAAAA==
+						</data>
+					</dict>
+					<key>PRT8</key>
+					<dict>
+						<key>Comment</key>
+						<string>Sliger S620 Left USB-A, 3.0</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						CAAAAA==
 						</data>
 					</dict>
 				</dict>

@@ -1,6 +1,8 @@
-OpenCore ver 0.7.4 · Bug Sur 11.6
+# ASRock X570 ITX/TB3 + Ryzen 9 5900X + RX-570
 
-# ASRock X570 ITX/TB3 + Ryzen 9 5900X + RX-570 → iMacPro1,1
+- OpenCore ver 0.7.4
+- Bug Sur 11.6 (should be ready for Monterey 12.0)
+- iMacPro1,1
 
 Current hardware:
 
@@ -45,8 +47,6 @@ Version 3.00
 3. Update value of `brcmfx-country` argument in `NVRAM/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args` with your country code. Should be identical or compatible with what your WiFi router is broadcasting. (Remove the parameter if you don’t know what I’m talking about here.)
 4. Turn off Power Nap in Energy Saver.
 
-Important: Add `-v` boot-args parameter to get verbose boot process, it greatly simplifies troubleshooting.
-
 ### What’s working
 
 Pretty much everything.
@@ -71,7 +71,7 @@ Pretty much everything.
 
 Use at your own risk. 
 
-- All `.efi` drivers and `.kext` are `-DEBUG` builds from the respective packages. 
+- All `.efi` drivers and `.kext` are `-RELEASE` builds from the respective packages. 
 - OpenCanopy (GUI boot menu) is up and running.
 - I don’t boot Windows 10 using OC, thus I can’t guarantee it will work. I have Win 10 installed on separate SSD and switch using Boot Menu.
 

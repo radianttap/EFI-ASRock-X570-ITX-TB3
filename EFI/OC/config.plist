@@ -46,6 +46,14 @@
 				<key>Path</key>
 				<string>SSDT-SBUS-MCHC.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>RX 570 support</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RX570.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>

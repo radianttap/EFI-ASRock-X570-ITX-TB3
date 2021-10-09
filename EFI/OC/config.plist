@@ -399,7 +399,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>AGPM-RX570-iMacPro1.1.kext</string>
+				<string>AGPM-RX570-MacPro7.1.kext</string>
 				<key>Comment</key>
 				<string>AGPM injector</string>
 				<key>Enabled</key>
@@ -1374,7 +1374,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMacPro1,1</string>
+			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
 			<string>--CREATE-YOUR-OWN--</string>
 			<key>SystemUUID</key>

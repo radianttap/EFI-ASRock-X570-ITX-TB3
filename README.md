@@ -2,7 +2,7 @@
 
 - OpenCore ver 0.7.4
 - Bug Sur 11.6 (should be ready for Monterey 12.0)
-- iMacPro1,1
+- MacPro7,1
 
 Current hardware:
 

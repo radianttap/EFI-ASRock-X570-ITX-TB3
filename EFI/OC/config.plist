@@ -50,7 +50,7 @@
 				<key>Comment</key>
 				<string>RX 570 support</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-RX570.aml</string>
 			</dict>

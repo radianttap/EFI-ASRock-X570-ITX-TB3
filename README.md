@@ -59,9 +59,11 @@ Pretty much everything.
 - 4K HDMI with HDR, Dolby.
 - Watch unlock, Handoff, iMessage, iCloud, Keychain, Xcode etc.
 - System Integrity Protection (SIP) fully enabled.
-- Sleep / wake
+- Sleep
 
 ### What’s not working
+
+Wake is usually working but there are still cases where it locks up and only pull the plug helps.
 
 - Sidecar
 - Thunderbolt 3

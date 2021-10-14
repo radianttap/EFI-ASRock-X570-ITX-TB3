@@ -51,7 +51,7 @@ Version 3.00
 
 Pretty much everything.
 
-- NVMe SSD recognised properly.
+- NVMe SSD recognised out of the box.
 - WiFi, Bluetooth, Ethernet
 - All USB ports properly mapped.
 - Radeon GPU, natively supported.
@@ -59,12 +59,11 @@ Pretty much everything.
 - 4K HDMI with HDR, Dolby.
 - Watch unlock, Handoff, iMessage, iCloud, Keychain, Xcode etc.
 - System Integrity Protection (SIP) fully enabled.
-- Sleep
+- Sleep / wake
 
 ### What’s not working
 
 - Sidecar
-- Wake (GPU fails to start up)
 - Thunderbolt 3
 
 ## Notes

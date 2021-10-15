@@ -105,7 +105,6 @@
 				</data>
 				<key>OemTableId</key>
 				<data>
-				AAAAAA==
 				</data>
 				<key>Replace</key>
 				<data>
@@ -120,7 +119,6 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data>
-				AAAAAA==
 				</data>
 			</dict>
 			<dict>
@@ -491,7 +489,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>USBmap-noTB3.kext</string>
+				<string>USBmap-TB3.kext</string>
 				<key>Comment</key>
 				<string>USB mapping</string>
 				<key>Enabled</key>

@@ -491,7 +491,7 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>USBmap.kext</string>
+				<string>USBmap-noTB3.kext</string>
 				<key>Comment</key>
 				<string>USB mapping</string>
 				<key>Enabled</key>

@@ -38,6 +38,14 @@
 				<key>Path</key>
 				<string>SSDT-GPRW.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Adds GPU devices into ACPIPlane</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPP8.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>

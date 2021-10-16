@@ -59,11 +59,11 @@ Pretty much everything.
 - 4K HDMI with HDR, Dolby.
 - Watch unlock, Handoff, iMessage, iCloud, Keychain, Xcode etc.
 - System Integrity Protection (SIP) fully enabled.
-- Sleep
+- Sleep / Wake
+
+Note: Going to sleep may take a while, sometime 30+ seconds. Just leave it be, it’s done eventually.
 
 ### What’s not working
-
-Wake is usually working but there are still cases where it locks up and only pull the plug helps.
 
 - Sidecar
 - Thunderbolt 3

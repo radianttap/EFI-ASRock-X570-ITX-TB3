@@ -55,13 +55,16 @@ Pretty much everything.
 - WiFi, Bluetooth, Ethernet
 - All USB ports properly mapped.
 - Radeon GPU, natively supported.
-- All media services (Plex, Netflix in Safari, iTunes, Apple TV+ etc). All are fully hardware-accelerated.
 - 4K HDMI with HDR, Dolby.
 - Watch unlock, Handoff, iMessage, iCloud, Keychain, Xcode etc.
 - System Integrity Protection (SIP) fully enabled.
 - Sleep / Wake
 
-Note: Going to sleep may take a while, sometime 30+ seconds. Just leave it be, it’s done eventually.
+#### Media & DRM
+
+- If you add WhateverGreen.kext and `unfairgva` as [device property for GFX0](https://forum.amd-osx.com/index.php?threads/fixing-green-screen-drm-on-bigsur-for-appletv-and-apple-music-streaming.1476/), then everything works: Plex, Netflix in Safari, iTunes, Apple TV+ etc). All are fully hardware-accelerated.
+- I have decided to exclude WEG and with that I am unable to run Netflix in Safari and TV+ content. It's not important to me for this particular build.
+
 
 ### What’s not working
 

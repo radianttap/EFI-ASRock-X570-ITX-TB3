@@ -1,7 +1,7 @@
 # ASRock X570 ITX/TB3 + Ryzen 9 5900X + RX-570
 
-- OpenCore ver 0.7.4
-- Bug Sur 11.6 (should be ready for Monterey 12.0)
+- OpenCore ver 0.7.5
+- Bug Sur 11.6.1 (should be ready for Monterey 12.0)
 - MacPro7,1
 
 Current hardware:
@@ -35,7 +35,7 @@ Version 3.20
 - Fast Boot: `Disabled`
 - CSM: `Disabled`
 - Above 4G Decoding: `Enabled`
-- Resizable Bar Support: `Disabled`
+- Resizable Bar Support: `Enabled`
 - PCIe speed: `Gen 3` (*do not* leave it on Auto)
 - XMP Profile activated.
 - FCLK set to 1600MHz, to be equal to MCLK.
